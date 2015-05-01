@@ -14,8 +14,8 @@ $('#params').form({
             },
             {
                 type   : 'maxLength[3]',
-                prompt : 'Un peu trop grand là... that\'s what she said'
-            }
+                prompt : 'Un peu trop grand là... (that\'s what she said)'
+            },
         ]
     },
 },
