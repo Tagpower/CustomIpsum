@@ -15,7 +15,7 @@ $('#v_3').on('click', function(){
 
 function changePics(path){
     $('#img').transition({
-        animation  : 'fade',
+        animation  : 'horizontal flip',
         onComplete : function(){
             $('#img').attr('src',path);
             $('#img').transition('horizontal flip');
