@@ -16,7 +16,7 @@
 
 <body id="sink">
     <div class="container">
-        <form id="params" name="params" class="ui form">
+        <div method="post" id="params" name="params" class="ui form">
             <h4 class="ui dividing header">Lorem Ipsum Compta-style</h4>
             <div class="field" id="version">
                 <label>Choisissez votre version</label>
@@ -28,9 +28,9 @@
             </div>
             <div class="inline fields">
                 <div class="field">
-                    <label>Nombre de paragraphes</label>
-                    <div id="paragraphs" class="field">
-                        <input type="number" name="paragraphs" placeholder="Nombre de paragraphes">
+                    <label>Nombre de lignes</label>
+                    <div id="lines" class="field">
+                        <input type="number" name="lines" placeholder="Nombre de lignes">
                     </div>
                 </div>
                 <div class="field">
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="ui error message"></div>
-        </form>
+        </div>
 
         <h4 class="ui dividing header">Texte généré</h4>
         <div id="generated"></div>

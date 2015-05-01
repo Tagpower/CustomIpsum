@@ -5,15 +5,15 @@ $('.button').on('click', function(){
 
 // Form validation and form behavior
 $('#params').form({
-    paragraphs: {
-        identifier : 'paragraphs',
+    lines: {
+        identifier : 'lines',
         rules: [
             {
                 type   : 'integer',
                 prompt : 'Il va me falloir un nombre là par contre...'
             },
             {
-                type   : 'maxLength[2]',
+                type   : 'maxLength[3]',
                 prompt : 'Un peu trop grand là... that\'s what she said'
             }
         ]
@@ -25,17 +25,25 @@ $('#params').form({
 
 // Handle form on success
 function submitForm(){
-    alert('I am here');
-
     var v = getVersion();
-    var p = $('#params').form('get field', 'paragraphs').val();
+    var l = $('#params').form('get field', 'lines').val();
     
-    generateLorem(v, p);
+    generateLorem(v, l);
 }
 
 // Generate the ipsum
-function generateLorem(v, p){
-    $('#generated').html("bahhhh");
+function generateLorem(v, l){
+    var s = "";
+    var i = 0; var j = 0;
+    for(i=0; i<l; i++){
+        if(j >= sentences[v-1].length){
+            j = 0;
+        }
+        s += " ";
+        s += sentences[v-1][j];
+        j += 1;
+    }
+    $('#generated').html(s);
 }
 
 // Get version (UGLY AS SH*T)
