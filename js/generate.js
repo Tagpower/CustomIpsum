@@ -1,18 +1,20 @@
 var sentences = [
 [
-	"Bonjour mes chers étudiants!",
-	"Alors, vous avez bien travaillé votre TD et lu la page 88 de mon poly?",
-	"Bien! Alors, ouvrez votre poly page 45 sur le cas Lenoir.",
-	"J'espère que vous avez eu le temps de lire le cas Saari.",
-	"Maintenant qu'on a terminé la marée fraternelle...",
-	"On va pouvoir commencer les flux d'exploitations.",
-	"Ouvrez votre poly Chapitre II ter page 23(b).",
-	"Sur le cas Lenoir, et completez donc le bilan des comptes.",
-	"Faites ensuite le bilan prévisionnel pour l'exercice N+2 bhh.",
-	"Vous avez le plan comptable dans votre poly!",
+	"Bien ! Bonnnjouuur !"
+	"Alors, vous êtes prêt pour le CM de ce matin ?",
+	"Tiens, il y a moins de monde que d'habitude !",
+	"Alors comme ça, on fait la fête le jeudi soir ?",
+	"Et on pense pas à se réveiller pour le cours de MATH ?",
+	"C'est l'occasion idéale pour un petit TEEEEEST ?!",
+	"On va voir ceux qui ont bien suivi les amphis ET les TD !",
+	"N'est-ce pas, monsieur PENAAAAAA ??",
+	"Et n'oubliez pas, interdit aux calculatrices connectées à Internet ou ARPANet !",
+	"Et interdit de se pendre, ça perturbe le déroulement du cours !",
+	"Bien, je vais être indulgent, je ramasse dans seulement 15 minutes",
+	"Allez, et que Kolmogorov soit avec vous !",
 ],
-[
-	"Est-ce que vous avez terminé votre PPP??",
+[ //TODO Vener (Amphi/TD)
+	"BIEN !",
 	"Moi je comprends pas! Vous êtes des spécialistes du traitement de l'information!",
 	"Bah! C'est quand même pas compliqué! Moi je sais pas!",
 	"Est-ce que vous avez lu votre poly page 87(b)! Bah!",
@@ -31,7 +33,7 @@ var sentences = [
 	"Comment voulez-vous envisager sereinement la suite du programme!",
 	"Vous ne savez même pas faire un bilan des comptes!!"
 ],
-[
+[ //TODO FURAX (Amphi ultra relou)
 	"M. BOCHÉ! AU TABLEAU!",
 	"B'ENFIIN MAIS! JE COMPRENDS PAS!",
 	"VOUS ÊTES INFORMATICIEN!",
