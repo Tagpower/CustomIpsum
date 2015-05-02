@@ -30,15 +30,15 @@ $('#params').form({
         rules: [
             {
                 type   : 'integer',
-                prompt : 'Il va me falloir un nombre là par contre...'
+                prompt : 'Aloooors ? On sait plus écrire un NOMBRE ???'
             },
             {
                 type   : 'maxLength[3]',
-                prompt : 'Un peu trop grand là... (that\'s what she said)'
+                prompt : 'BIEN !! Entrez-moi un nombre dans Z1000 !'
             },
             {
                 type   : 'not[0]',
-                prompt : 'Très utile!'
+                prompt : 'Xорошо ! On ne peut pas générer la chaîne VIIIDE !'
             },
         ]
     },
@@ -71,6 +71,7 @@ function generateLorem(v, l){
 }
 
 // Get version (UGLY AS SH*T)
+//FIXME CAN CONFIRM
 function getVersion(){
     if($('#v_2').hasClass('active')){
         return 2;
